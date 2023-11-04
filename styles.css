@@ -1,0 +1,100 @@
+/* Styles pour le corps de la page */
+body {
+    background-color: #F0F0FF; /* Fond bleu clair */
+    color: black; /* Texte en noir pour une meilleure lisibilité */
+    font-family: 'Times New Roman', Times, serif; /* Police de caractères (peut être modifiée selon vos préférences) */
+    font-size: 16px; /* Taille de police (peut être modifiée selon vos préférences) */
+    padding-top: 130px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; /* Marge autour du contenu */
+}
+
+.image-and-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+img {
+    max-width: 70%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+}
+
+.text-container {
+    flex: 1; /* Utilisation de la moitié de l'espace disponible pour le texte */
+    padding: 20px; /* Marge intérieure pour l'espacement autour du texte */
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles pour la barre de navigation */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.card {
+    border: 5px solid #ddd;
+    border-radius: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    background-color: transparent;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0 auto; /* Centrer l'image horizontalement */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
